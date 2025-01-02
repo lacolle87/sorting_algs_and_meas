@@ -1,0 +1,9 @@
+[flake8]
+# Exclude specific directories (including site-packages)
+exclude = .git,__pycache__,venv,.tox,build,dist,*.egg,*/migrations/*,*.venv/*,__init__.py
+
+# Ignore specific error codes
+ignore = E202, E203, W503, E701, W291, E226
+
+# Set max line length (PEP 8 recommended)
+max-line-length = 130
